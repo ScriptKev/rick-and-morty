@@ -31,9 +31,7 @@ const Character = ({ name, status, species, location, image, episodes, id }: Cha
 
         <div className='descriptions'>
           <span className='location'>Last known location:</span>
-          <a>
-            <p>{location.name}</p>
-          </a>
+          <p>{location.name}</p>
         </div>
       </CharacterStyled.Descriptions>
 
