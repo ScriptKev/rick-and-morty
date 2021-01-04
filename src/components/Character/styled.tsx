@@ -78,7 +78,7 @@ export const CharacterStyled = {
         margin: 5px 0;
       }
 
-      & p {
+      & a, p {
         color: rgb(245, 245, 245);
 
         &:hover {
